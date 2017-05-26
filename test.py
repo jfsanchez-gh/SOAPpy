@@ -49,7 +49,7 @@ import WSDL
 wsdl = WSDL.Proxy('file.wsdl')
 
 user='jfsanchez'
-passwd = 'nova99+2'
+passwd = 'secret'
 domain = 'uci.cu'
 
 c = wsdl.ObtenerCuota(user,passwd,domain)
